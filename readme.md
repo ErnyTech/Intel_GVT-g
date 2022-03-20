@@ -174,7 +174,7 @@ The following guide explains how to configure Intel GVT-g to use it with libvirt
     
   If you are using the Qemu system session you will probably need to execute the following command before the VM starts to allow Qemu to create the video output window:
   ```
-  xhost +
+  $ xhost +
   ```
   Without this command the VM startup will fail due to the lack of permissions.
   
